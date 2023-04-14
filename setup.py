@@ -8,7 +8,7 @@ except FileNotFoundError:
 
 setup(
     name='phpdoc-trans',
-    version='0.0.3',
+    version='0.0.4',
     packages=['phpdoc_trans'],
     install_requires=[
         'click',
