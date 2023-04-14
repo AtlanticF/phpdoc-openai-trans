@@ -10,6 +10,7 @@ from .spinner import Spinner
 @click.option('--model', default='text-davinci-003', help='Model ID')
 @click.option('--max-tokens', default=100, help='Maximum number of tokens to generate')
 @click.option('--temperature', default=0.3, help='Sampling temperature')
+@click.version_option()
 def main(doc, lang, model, max_tokens, temperature):
     '''Load phpdoc file and translate it.'''
     # check api key
